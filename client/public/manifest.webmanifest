@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "Apresenta — controle de apresentações",
+  "short_name": "Apresenta",
+  "description": "Monte e projete apresentações multimídia sem login. Seus arquivos permanecem neste navegador.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f2f4f8",
+  "theme_color": "#f2f4f8",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}
