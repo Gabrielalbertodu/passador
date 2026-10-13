@@ -1,0 +1,9 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist/public"
+
+# Client-side routing (wouter): serve index.html for unknown paths
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
